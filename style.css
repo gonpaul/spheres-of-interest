@@ -1,0 +1,67 @@
+
+:root {
+    --main-theme-color: #A59873;
+    --main-text-color: #F4ECD6;
+    --header-background-color: #667680;
+    --footer-background-color: #815D50;
+    --triad-blue: #4B5E69;
+    --triad-pink: #A58073;
+    --triad-pastele: #A58073;
+
+}
+[alt="logo"] {
+    width: 50px;
+    height: 50px;
+}
+
+body {
+    background-color: var(--main-theme-color);
+    color: var(--main-text-color);
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+
+header {
+    border-bottom: 2px dashed;
+    border-width: 100%;
+    background-color: var(--header-background-color);
+    padding-top: 20px;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 10px 15px;
+
+}
+
+iframe {
+    border-radius: 30px;
+    border-style: none;
+}
+
+.container:hover {
+    border-radius: 24px;
+    border: 2px solid #815D50;
+}
+
+[src="./images/workout.jpg"] {
+    width: 40%;
+    height: auto;
+}
+
+[src="./images/workout.jpg"]:hover {
+    -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
+
+footer {
+    box-sizing: border-box;
+    height: 300px;
+    background: linear-gradient(180deg, var(--triad-pastele) 0%, var(--triad-pink) 30%, var(--triad-blue) 90%);
+}
